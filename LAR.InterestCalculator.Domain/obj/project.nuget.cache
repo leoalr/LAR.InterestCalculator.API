@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "m9BYJGdWiQCdUiS1ozeNlwO27yCVuAU1OexCzYZ5D0EUgA3xsdGDYXSD7TSCGgCyAdsQ4W7D8PYv9YwsYxqlAw==",
+  "success": true,
+  "projectFilePath": "C:\\repos\\LAR.InterestCalculator.API\\LAR.InterestCalculator.Domain\\LAR.InterestCalculator.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Leo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Leo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
