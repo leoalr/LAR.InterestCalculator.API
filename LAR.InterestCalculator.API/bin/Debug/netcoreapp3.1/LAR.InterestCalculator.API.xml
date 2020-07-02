@@ -4,5 +4,16 @@
         <name>LAR.InterestCalculator.API</name>
     </assembly>
     <members>
+        <member name="T:LAR.InterestCalculator.API.Controllers.InterestCalculatorController">
+            <summary>
+            API to calculate interest values
+            </summary>
+        </member>
+        <member name="M:LAR.InterestCalculator.API.Controllers.InterestCalculatorController.Calculate">
+            <summary>
+            HTTP POST Method to calculate compound interest total value
+            </summary>
+            <returns>A decimal value representing the result of the calculation</returns>
+        </member>
     </members>
 </doc>

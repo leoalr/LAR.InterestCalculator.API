@@ -6,11 +6,15 @@
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <OutputPath>bin\Debug\netcoreapp3.1\</OutputPath>
-    <DocumentationFile>bin\Debug\netcoreapp3.1\LAR.InterestCalculator.API.xml</DocumentationFile>
+    <DocumentationFile></DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LAR.InterestCalculator.Infra\LAR.InterestCalculator.Infra.csproj" />
   </ItemGroup>
 
 

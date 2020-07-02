@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LAR.InterestCalculator.API", "LAR.InterestCalculator.API\LAR.InterestCalculator.API.csproj", "{81F6A74C-EC9A-4A38-9E46-259F8C9D6871}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LAR.InterestCalculator.API", "LAR.InterestCalculator.API\LAR.InterestCalculator.API.csproj", "{81F6A74C-EC9A-4A38-9E46-259F8C9D6871}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LAR.InterestCalculator.Domain", "LAR.InterestCalculator.Domain\LAR.InterestCalculator.Domain.csproj", "{5309C342-2E19-47CF-A08F-7B21D7D1F885}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LAR.InterestCalculator.Domain", "LAR.InterestCalculator.Domain\LAR.InterestCalculator.Domain.csproj", "{5309C342-2E19-47CF-A08F-7B21D7D1F885}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LAR.InterestCalculator.UnitTest", "LAR.InterestCalculator.UnitTest\LAR.InterestCalculator.UnitTest.csproj", "{FB17DC43-3A79-471B-8A69-6DEA8B4C9F41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LAR.InterestCalculator.Infra", "LAR.InterestCalculator.Infra\LAR.InterestCalculator.Infra.csproj", "{2E7B0978-6603-4835-BA10-DEDC8C8E22F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{5309C342-2E19-47CF-A08F-7B21D7D1F885}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5309C342-2E19-47CF-A08F-7B21D7D1F885}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5309C342-2E19-47CF-A08F-7B21D7D1F885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB17DC43-3A79-471B-8A69-6DEA8B4C9F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB17DC43-3A79-471B-8A69-6DEA8B4C9F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB17DC43-3A79-471B-8A69-6DEA8B4C9F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB17DC43-3A79-471B-8A69-6DEA8B4C9F41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E7B0978-6603-4835-BA10-DEDC8C8E22F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E7B0978-6603-4835-BA10-DEDC8C8E22F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E7B0978-6603-4835-BA10-DEDC8C8E22F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E7B0978-6603-4835-BA10-DEDC8C8E22F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,12 @@
+C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.Infra\bin\Debug\netstandard2.0\LAR.InterestCalculator.Infra.deps.json
+C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.Infra\bin\Debug\netstandard2.0\LAR.InterestCalculator.Infra.dll
+C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.Infra\obj\Debug\netstandard2.0\LAR.InterestCalculator.Infra.csprojAssemblyReference.cache
+C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.Infra\obj\Debug\netstandard2.0\LAR.InterestCalculator.Infra.AssemblyInfoInputs.cache
+C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.Infra\obj\Debug\netstandard2.0\LAR.InterestCalculator.Infra.AssemblyInfo.cs
+C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.Infra\bin\Debug\netstandard2.0\LAR.InterestCalculator.Infra.pdb
+C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.Infra\obj\Debug\netstandard2.0\LAR.InterestCalculator.Infra.csproj.CoreCompileInputs.cache
+C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.Infra\obj\Debug\netstandard2.0\LAR.InterestCalculator.Infra.dll
+C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.Infra\obj\Debug\netstandard2.0\LAR.InterestCalculator.Infra.pdb
+C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.Infra\bin\Debug\netstandard2.0\LAR.InterestCalculator.Domain.dll
+C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.Infra\bin\Debug\netstandard2.0\LAR.InterestCalculator.Domain.pdb
+C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.Infra\obj\Debug\netstandard2.0\LAR.InterestCalculator.Infra.csproj.CopyComplete
