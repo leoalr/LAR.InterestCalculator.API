@@ -2,6 +2,8 @@
 {
     public class AppOptions
     {
+        public string MyGithubRepositoriesURL { get; set; }
+
         public InterestTaxApiOptions InterestTaxApiOptions { get; set; }
     }
 }

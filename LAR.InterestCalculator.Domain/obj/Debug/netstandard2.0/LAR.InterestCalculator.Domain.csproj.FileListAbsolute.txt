@@ -6,4 +6,3 @@ C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.Domain\obj\Debug\nets
 C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.Domain\obj\Debug\netstandard2.0\LAR.InterestCalculator.Domain.csproj.CoreCompileInputs.cache
 C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.Domain\obj\Debug\netstandard2.0\LAR.InterestCalculator.Domain.dll
 C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.Domain\obj\Debug\netstandard2.0\LAR.InterestCalculator.Domain.pdb
-C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.Domain\obj\Debug\netstandard2.0\LAR.InterestCalculator.Domain.csprojAssemblyReference.cache
