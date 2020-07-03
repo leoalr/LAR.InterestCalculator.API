@@ -16,9 +16,6 @@ C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.API\bin\Debug\netcore
 C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.API\obj\Debug\netcoreapp3.1\LAR.InterestCalculator.API.csproj.CoreCompileInputs.cache
-C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.API\obj\Debug\netcoreapp3.1\LAR.InterestCalculator.API.MvcApplicationPartsAssemblyInfo.cs
-C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.API\obj\Debug\netcoreapp3.1\LAR.InterestCalculator.API.MvcApplicationPartsAssemblyInfo.cache
 C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.API\obj\Debug\netcoreapp3.1\LAR.InterestCalculator.API.csproj.CopyComplete
 C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.API\obj\Debug\netcoreapp3.1\LAR.InterestCalculator.API.dll
 C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.API\obj\Debug\netcoreapp3.1\LAR.InterestCalculator.API.pdb
@@ -42,3 +39,9 @@ C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.API\bin\Debug\netcore
 C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.API\bin\Debug\netcoreapp3.1\netcoreapp3.1\Newtonsoft.Json.dll
 C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.API\bin\Debug\netcoreapp3.1\netcoreapp3.1\LAR.InterestCalculator.Infra.dll
 C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.API\bin\Debug\netcoreapp3.1\netcoreapp3.1\LAR.InterestCalculator.Infra.pdb
+C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.API\bin\Debug\netcoreapp3.1\netcoreapp3.1\FluentValidation.dll
+C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.API\bin\Debug\netcoreapp3.1\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.API\bin\Debug\netcoreapp3.1\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.API\obj\Debug\netcoreapp3.1\LAR.InterestCalculator.API.csproj.CoreCompileInputs.cache
+C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.API\obj\Debug\netcoreapp3.1\LAR.InterestCalculator.API.MvcApplicationPartsAssemblyInfo.cs
+C:\repos\LAR.InterestCalculator.API\LAR.InterestCalculator.API\obj\Debug\netcoreapp3.1\LAR.InterestCalculator.API.MvcApplicationPartsAssemblyInfo.cache

@@ -23,15 +23,15 @@ namespace LAR.InterestCalculator.UnitTest.Domain
         public void ShouldFinalAmountBeACorrectResultOfACorrectCompoundInterestCalculation()
         {
             //Arrange
-            var interestCalculator = new InterestCalculator.Domain.ValueObjects
-                .InterestCalculator(_testingRandomInitialAmount, 
-                    _testingRandomMonthsAmount, _testingRandomInterestTax);
-
-            //Act
             Func<double, int, double, decimal> correctCalculation = (i, m, t) =>
             {
                 return (decimal)Math.Truncate((i * Math.Pow(1 + t, m)) * 100) / 100;
             };
+
+            //Act
+            var interestCalculator = new InterestCalculator.Domain.ValueObjects
+                .InterestCalculator(_testingRandomInitialAmount,
+                    _testingRandomMonthsAmount, _testingRandomInterestTax);
 
             //Assert
             Assert.Equal(interestCalculator.FinalAmount,

@@ -13,8 +13,6 @@ namespace LAR.InterestCalculator.Infra.ApiClients
         )
         {
             _httpClient = httpClient;
-            _httpClient.DefaultRequestHeaders.Add("Accept", "application/json");
-            _httpClient.DefaultRequestHeaders.Add("User-Agent", "LAR.InterestCalculator.API");
         }
 
         public async Task<T> GetAsync<T>(string baseUrl, string relativePath)

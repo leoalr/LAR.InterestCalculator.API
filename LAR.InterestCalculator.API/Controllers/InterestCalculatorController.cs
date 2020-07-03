@@ -1,4 +1,5 @@
-﻿using LAR.InterestCalculator.API.Request;
+﻿using LAR.InterestCalculator.API.Attributes;
+using LAR.InterestCalculator.API.Request;
 using LAR.InterestCalculator.API.Response;
 using LAR.InterestCalculator.Domain.Interfaces.Application;
 using Microsoft.AspNetCore.Mvc;
@@ -9,7 +10,7 @@ namespace LAR.InterestCalculator.API.Controllers
     /// <summary>
     /// API to calculate interest values
     /// </summary>
-    [Route("api/[controller]")]
+    [Route("api/calculajuros")]
     [ApiController]
     public class InterestCalculatorController : ControllerBase
     {
@@ -26,12 +27,21 @@ namespace LAR.InterestCalculator.API.Controllers
         /// </summary>
         /// <returns>A decimal value representing the result of the calculation</returns>
         [HttpPost]
-        public async Task<CompoundInterestResponse> CompoundInterest(CompoundInterestRequest request)
+        public async Task<IActionResult> CompoundInterest(CompoundInterestRequest request)
         {
-            return new CompoundInterestResponse
+            try
             {
-                Result = await _interestCalculatorService.CalculateCompoundInterest(request.InitialAmount, request.MonthsAmount)
-            };
+                return new CompoundInterestResponse
+                {
+                    Result = await _interestCalculatorService.CalculateCompoundInterest(request.InitialAmount, request.MonthsAmount)
+                };
+            }
+            catch (System.Exception ex)
+            {
+                return new ResponseBase(500, "Ocorreu um erro inesperado. Tente novamente e se " +
+                                             "o erro persistir entre em contato com o administrador da API. " +
+                                             "- Exception: " + ex.Message);
+            }
         }
     }
 }

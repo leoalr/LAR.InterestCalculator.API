@@ -1,8 +1,12 @@
+using FluentValidation.AspNetCore;
+using LAR.InterestCalculator.API.Attributes;
+using LAR.InterestCalculator.Domain.Options;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
 
 namespace LAR.InterestCalculator.API.Configuration
 {
@@ -18,9 +22,30 @@ namespace LAR.InterestCalculator.API.Configuration
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services
+                .AddControllers(options =>
+                {
+                    options.Filters.Add(new ValidateModelStateAttribute());
+                })
+                .ConfigureApiBehaviorOptions(options =>
+                {
+                    options.SuppressModelStateInvalidFilter = true;
+                })
+                .AddFluentValidation(fv =>
+                {
+                    fv.RegisterValidatorsFromAssemblyContaining<Startup>();
+                });
+
             services.AddSwaggerGen();
-            services.ConfigureDependencyInjection();
+
+            services.Configure<AppOptions>(Configuration.GetSection("AppOptions"));
+
+            services.AddSingleton((serviceProvider) =>
+            {
+                return ((IOptions<AppOptions>)serviceProvider.GetService(typeof(IOptions<AppOptions>))).Value;
+            });
+
+            services.ConfigureDependencyInjection(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

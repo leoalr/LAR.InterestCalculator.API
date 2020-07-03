@@ -24,6 +24,12 @@ namespace LAR.InterestCalculator.API.Application
         {
             var interestTax = await _interestTaxClient.GetInterestTax();
 
+            if (interestTax == default || interestTax <= 0)
+            {
+                throw new ArgumentOutOfRangeException("A API de taxa de juros retornou um valor inválido. " +
+                                                      "Favor conferir se esta API está retornando um valor de juros válido.");
+            }
+
             var interestCalculator = new Domain.ValueObjects
                 .InterestCalculator(Convert.ToDouble(initialAmount), monthsAmount, Convert.ToDouble(interestTax));
 
